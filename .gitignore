@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vault data (DO NOT COMMIT)
+vault/
+*.vault
+header.bin
+metadata.enc
+journal.enc
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/
