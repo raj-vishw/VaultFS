@@ -91,22 +91,6 @@ Disk (Fully Encrypted, Zero Knowledge)
 
 ---
 
-📁 Project Structure
-
-file_locker/
-├── backend/
-│   ├── vault_service.py    # Vault lifecycle management
-│   ├── session.py          # Auto-lock & session timeout
-│   └── policy.py           # Password rules
-├── crypto/                 # Cryptographic core
-├── vault/                  # Encrypted storage engine
-├── vfs/                    # Virtual filesystem (FUSE / WinFsp)
-├── ui/                     # HTML/CSS user interface
-├── app.py                  # Backend entry point
-└── README.md
-
----
-
 ## 🔑 Cryptographic Model
 
 |Component|Algorithm|
